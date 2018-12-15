@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+	
+	<!-- 命名空间 -->
+<mapper namespace="cn.tedu.dao.loginDao" > 
+		
+		<!-- 注册 -->
+		<insert id="regDao" parameterType="map">
+			insert into 
+			order_user (
+				id,
+				name,
+				pwd,
+				phone,
+				money
+			)
+			values(
+			null,
+			#{name},
+			#{pwd},
+			#{phone},
+			#{money}
+			);
+		</insert>
+		
+		<select id="login" parameterType="String"
+		 resultType="cn.tedu.entity.User">
+		 	select 
+		 		id as user_id,
+		 		name as user_name,
+		 		pwd as user_pwd,
+		 		phone as user_phone  
+	 		from order_user 
+	 		where 
+	 		name=#{name};
+		</select>
+	
+		<select id="listStore" resultType="map">
+			select  
+				store_id as store_id,
+				store_name as store_name,
+				store_url as store_url
+		 from store;		
+		</select>
+	
+		
+</mapper>
+

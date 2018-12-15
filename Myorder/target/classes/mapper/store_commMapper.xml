@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+	
+	<!-- 命名空间 -->
+<mapper namespace="cn.tedu.dao.store_commDao" > 
+	
+		<select id="ListStore_comm" resultType="map">
+		
+			select  comm_id    as comm_id,
+	 	 			comm_url   as comm_url,
+	 	 			comm_name  as comm_name,
+	 	 			comm_price as comm_price,
+	 	 			comment_sales as comment_sales
+				from store_comm   
+				where store_id=#{store_id};
+		</select>
+	
+		<select id="findStoreDao" resultType="cn.tedu.entity.store">
+			
+			select * from store where store_id=#{store_id};
+		</select>
+	
+		<select id="ListComm_ByStoreIdDao" parameterType="map" resultType="map">
+			select  comm_id    as comm_id,
+	 	 			comm_url   as comm_url,
+	 	 			comm_name  as comm_name,
+	 	 			comm_price as comm_price,
+	 	 			comment_sales as comment_sales
+				from store_comm 
+				where store_id=#{store_id} order by ${conditions} desc;
+				<!-- 排序条件  -->
+		</select>
+		
+		
+		<update id="addCommSales" parameterType="java.util.List">
+			 <foreach collection="list" item="comm" index="index"
+			 separator=";">
+			 update store_comm 
+				 set comment_sales=#{comm.comment_sales}
+			 where 
+			 	comm_id=#{comm.comm_id}
+			 </foreach>
+			 <!-- &allowMultiQueries=true 连接数据库时开启批量执行语句模式 -->
+		</update>
+	
+</mapper>
+

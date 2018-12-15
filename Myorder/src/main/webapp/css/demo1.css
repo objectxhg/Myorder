@@ -1,0 +1,192 @@
+*{
+}
+
+#shanghu {
+	margin-left: 154px;
+	color: black;
+	font-size: 22px;
+	width: 80px;
+	height: 52px;
+}
+
+#shanghu1 {
+	margin-left: 600px;
+	color: black;
+	width: 70px;
+	height: 15.33px;
+	text-decoration: none;
+}
+
+#shanghu2 {
+	margin-left: 159px;
+	color: black;
+	width: 70px;
+	height: 15.33px;
+	text-decoration: none;
+}
+#ad {
+	width:100%px;
+	margin:0 auto; 
+	background-image: url("../img_demo1/backlgroud.png");
+}
+h1 {
+	text-align: center;
+	width: 100%px;
+	height: 20px;
+	font-size: 35px;
+}
+
+h2 {
+	text-align: center;
+	width: 100%px;
+	height: 37.67px;
+	font-size: 35px;
+}
+
+#kdjl {
+	margin-left: 614px;
+	height: 20;
+	font-size: 15px;
+}
+
+h4 {
+	margin-left: 1085px;
+	height: 20;
+	font-size: 12px;
+}
+
+h5 {
+	margin-left: 490px;
+	height: 20;
+	font-size: 20px;
+}
+
+#sj1 {
+	width: 275px;
+	height: 140px;
+	margin-top: 10px;
+	margin: 0 auto; 	
+}
+
+#aaa li {
+	float: left;
+	list-style: none;
+	margin-top: -130px;
+	margin-left: 115px;
+}
+
+#Z1 {
+	font-size: 60px;
+	width: 95.15px;
+	height: 125.33px;
+}
+
+#Z2 {
+	font-size: 30px;
+	width: 52px;
+	height: 28.67px;
+}
+
+#Z3 {
+	text-size: 15px;
+	width: 275px;
+	height: 28px;
+}
+
+#Z {
+	after: 1*60px;
+}
+
+#bb {
+	margin-top: 75px;
+
+}
+
+#bb input {
+	margin-left:525px;
+	margin-top: 75px;
+	font-size: 30px;
+	border-radius: 30px;
+	outline:none;
+	color:white;
+	background-color: #0089dc;
+	border: 1px solid #0089dc;
+}
+
+#bt {
+	margin-top: 75px;
+	margin-left: 420px;
+	width: 280px;
+	height: 66.5px;
+}
+
+#abc li1 {
+	float: left;
+	list-style: none;
+	margin-left: 175px;
+}
+
+#abc li {
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+}
+
+#abc img {
+	border-radius: 50px;
+	width: 75px;
+	height: 75px;
+}
+
+#aabc li1 {
+	float: left;
+	list-style: none;
+	margin-left: 25px;
+}
+
+#aabc img {
+	width: 330px;
+	height: 360px;
+}
+#aabc {
+	margin-top:200px;
+	}
+#aabc li {
+	float: left;
+	list-style: none;
+	margin-left: 80px;
+}
+
+#aabbc li1 {
+	float: left;
+	list-style: none;
+	margin-left:40px;
+}
+
+#aabbc li2 {
+	float: left;
+	list-style: none;
+	margin-left: 80px;
+}
+
+#aabbc li3 {
+	float: left;
+	list-style: none;
+	margin-left: 80px;
+}
+
+#aabbc li4 {
+	float: left;
+	list-style: none;
+	margin-left:80px;;
+}
+
+#aabbc {
+	width: 689px;
+	height: 124px;
+}
+
+#aabbcc{
+	float: left;
+	margin-left:220px;
+}

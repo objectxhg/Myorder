@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>layui前端模块框架</title>
+		<link type="text/css" rel="stylesheet" href="../css/my.css" />
+		<link type="text/css" rel="stylesheet" href="../css/page.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="../js/page_myOrder_Part.js"></script>
+		<script src="../layui.js"></script>
+	</head>
+
+	<body>
+
+		<table id="demo" lay-filter="test"></table>
+
+		<script>
+			//一般直接写在一个js文件中
+			layui.use(['layer', 'form', 'table'], function() {
+				var layer = layui.layer;
+				var form = layui.form;
+				var table = layui.table;
+				layer.msg('Hello World');
+
+				table.render({
+					elem: '#demo'
+					,height: 315
+					,url: 'http://api.k780.com:88/?app=idcard.get&idcard=430702199708168514&appkey=10003&sign=b59bc3ef6191eb9f747dd4e83c99f2a4&format=xml'//数据接口
+					,page: true //开启分页,
+					,cols: [
+						[{
+								field: 'ID',
+								title: 'ID',
+								align: center
+							}, {
+								field: 'name',
+								title: '姓名',
+								align: center
+							}, {
+								field: 'age',
+								title: '年龄',
+								align: center
+							}
+
+						]
+					]
+
+				});
+
+			});
+		</script>
+	</body>
+
+</html>
