@@ -1,0 +1,199 @@
+.issue {
+	width: 983px;
+	height: 452px;
+	margin: 0px auto;
+	position: relative;
+	top: 50px;
+}
+
+.max {
+	float: left;
+	width: 983px;
+	height: 280px;
+}
+
+.issue h1 {
+	font-weight: normal;
+	font-size: 22px;
+	font-family: "黑体";
+}
+
+.issue_1 h2 {
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #666;
+}
+
+.issue_2 h2 {
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #666;
+}
+
+.issue_3 h2 {
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #666;
+}
+
+.issue_4 h2 {
+	font-weight: normal;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #666;
+}
+
+.issue_1 li {
+	width: 200px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.issue_1 li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+}
+
+.issue_2 li {
+	width: 200px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.issue_2 li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+}
+
+.issue_3 li {
+	width: 200px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.issue_3 li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+}
+
+.issue_4 li {
+	width: 200px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.issue_4 li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+}
+
+.issue ul {
+	position: relative;
+	left: -38px;
+}
+
+.issue_1 {
+	width: 200px;
+	height: 260px;
+	margin-left: 60px;
+	position: relative;
+	float: left;
+}
+
+.issue_2 {
+	width: 200px;
+	height: 260px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.issue_3 {
+	width: 200px;
+	height: 260px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.issue_4 {
+	width: 200px;
+	height: 260px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footer {
+	width: 1000px;
+	height: 112px;
+}
+
+#l1 {
+	width: 475px;
+	height: 58px;
+	list-style-type: none;
+	float: left;
+}
+
+.f_1 {
+	float: left;
+	margin-left: 25px;
+}
+
+.footer ul li img {
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+}
+
+.f_1_1 {
+	color: #666;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.f_1_2 {
+	color: #666;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.footer a {
+	background-color: #0089dc;
+	border-radius: 5px;
+	text-decoration: none;
+	float: left;
+	width: 96px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 50px;
+	margin-top: 25px;
+	color: #ffffff;
+}
+
+#l2 {
+	width: 470p;
+	height: 112px;
+	list-style-type: none;
+	float: left;
+}
+
+#l2 img {
+	float: left;
+}
+
+.f_2 {
+	float: left;
+	margin-left: 25px;
+}
