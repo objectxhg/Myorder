@@ -78,7 +78,7 @@
 		<div class="zhong5">
 		
 		<c:forEach items="${listStore}" var="list">
-			<a href="${pageContext.request.getContextPath()}/store/listStore_comm.do?store_id=${list.store_id }" target="_blank" >
+			<a href="${pageContext.request.getContextPath() }/store/listStore_comm.do?store_id=${list.store_id }" target="_blank" >
 				<div class="zhongjian">
 					<div class="zhongjian-url">
 					<span style="display: none"></span>

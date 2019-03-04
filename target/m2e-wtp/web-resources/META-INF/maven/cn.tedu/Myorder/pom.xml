@@ -5,7 +5,8 @@
 	<artifactId>Myorder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -72,10 +73,27 @@
 			<version>1.2</version>
 		</dependency>
 		<dependency>
-		  <groupId>aspectj</groupId>
-		  <artifactId>aspectjweaver</artifactId>
-		  <version>1.5.3</version>
+			<groupId>aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.5.3</version>
 		</dependency>
 		
+		<!-- log4j -->
+		<dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-api</artifactId>  
+            <version>1.6.6</version>  
+        </dependency>  
+        <dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-log4j12</artifactId>  
+            <version>1.6.6</version>  
+        </dependency>  
+        <dependency>  
+            <groupId>log4j</groupId>  
+            <artifactId>log4j</artifactId>  
+            <version>1.2.16</version>  
+        </dependency>  
+
 	</dependencies>
 </project>
