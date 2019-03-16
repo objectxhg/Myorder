@@ -19,7 +19,6 @@
 	<!-- 配置spring-mybatis.xml -->
 	<!-- 读取JDBC配置文件 -->
 	<util:properties id="jdbc" location="classpath:conf/jdbc.properties" />
-	
 	<!-- 扫描包下的注解 作为Bean注入到容器 -->
 	<context:component-scan base-package="cn.tedu" />
 	
