@@ -1,6 +1,5 @@
 package cn.tedu.controller;
 
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 
@@ -22,7 +21,7 @@ public class store_commController {
 	@Resource
 	private store_commService service;
 	
-	//µêÆÌÉÌÆ·
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·
 	@RequestMapping("/listStore_comm.do")
 	public String ListStore_commController(HttpServletRequest req){
 		

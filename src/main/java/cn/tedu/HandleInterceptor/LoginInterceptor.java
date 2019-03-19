@@ -11,18 +11,18 @@ public class LoginInterceptor implements HandlerInterceptor {
 
 	public boolean preHandle(HttpServletRequest req, HttpServletResponse res, Object handler) throws Exception {
 		
-		//ÊµÏÖHandlerInterceptor½Ó¿Ú  
-		//ÖØÐ´preHandle·½·¨ ÔÚÀïÃæ½øÐÐsessionÈÏÖ¤ Ã»ÓÐµÇÂ¼ÖØ¶¨Ïòµ½µÇÂ¼Ò³
+		//Êµï¿½ï¿½HandlerInterceptorï¿½Ó¿ï¿½  
+		//ï¿½ï¿½Ð´preHandleï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sessionï¿½ï¿½Ö¤ Ã»ï¿½Ðµï¿½Â¼ï¿½Ø¶ï¿½ï¿½òµ½µï¿½Â¼Ò³
 		HttpSession session = req.getSession();
 		Object obj = session.getAttribute("sessionUser");
 		if(obj==null){
 			
 			String path = req.getContextPath()+"/system/reg.html";
-			System.out.println("À¹½Ø³É¹¦");
+			System.out.println("ï¿½ï¿½ï¿½Ø³É¹ï¿½");
 			res.sendRedirect(path);
 			return false;
 		}
-		//true ÇëÇó¼ÌÐø
+		//true ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		return true;
 	}
 	

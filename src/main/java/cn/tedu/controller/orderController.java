@@ -23,19 +23,18 @@ public class orderController {
 	@Resource
 	private orderService service;
 	
-	//查看历史订单
+	//锟介看锟斤拷史锟斤拷锟斤拷
 	@RequestMapping("/showmyOrder.do")
 	public String showmyOrder(HttpSession session,ModelMap map){
 		User user = (User) session.getAttribute("sessionUser");
 		Integer userId = user.getUser_id();
 		List<Map<String, String>> orderlist = service.selectOrderByUserIdService(userId);
-		System.out.println("orderlist"+orderlist);
 		map.addAttribute("orderlist", orderlist);
 		
 		return "myOrder";
 	}
 	
-	//提交订单
+	//锟结交锟斤拷锟斤拷
 	@RequestMapping("/addOrder.do")
 	@ResponseBody
 	public JsonResult addorder(HttpServletRequest req){
