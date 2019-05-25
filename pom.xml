@@ -21,19 +21,19 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>2.8.11</version>
+			<version>2.9.9</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.8.11</version>
+			<version>2.9.9</version>
 		</dependency>
 		<!-- 在程序中经常需要将对象转化JSON,将JSON转化为对象.
 		所以必须使用工具类的方式进行.ObjectMapper是jackson中提供的工具类. -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.8.11</version>
+			<version>2.9.9</version>
 		</dependency>
 
 		<dependency>
