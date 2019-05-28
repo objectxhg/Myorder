@@ -32,7 +32,6 @@
 				<!-- 排序条件  -->
 		</select>
 		
-		
 		<update id="addCommSales" parameterType="java.util.List">
 			 <foreach collection="list" item="comm" index="index"
 			 separator=";">

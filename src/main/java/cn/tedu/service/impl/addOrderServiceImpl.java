@@ -44,6 +44,7 @@ public class addOrderServiceImpl implements orderService{
 		order_ft.setUser_id(user_id);
 		order_ft.setOrder_time(time);    
 		order_ft.setOrder_total(order_total);
+		//添加订单
 		int order_id = orderD.addOrder_FTDao(order_ft);
 		//存放订单商品
 		List<order_comm> list = new ArrayList<order_comm>();
@@ -63,16 +64,19 @@ public class addOrderServiceImpl implements orderService{
 			dcomm.setComm_price(price);
 			int comm_id = Integer.parseInt(storecomm[i+2]);
 			dcomm.setComm_id(comm_id);
-			comm.setComm_id(comm_id);
-			System.out.println("number"+number);
-			comm.setComment_sales(Integer.parseInt(storecomm[i+3])+number);
 			list.add(dcomm);
+			
+			System.out.println("number"+number);
+			comm.setComm_id(comm_id);
+			comm.setComment_sales(Integer.parseInt(storecomm[i+3])+number);
+			
 			saleslist.add(comm);
 			sum+=(double)number*price;
 		}
 		System.out.println(saleslist);
 		//插入订单商品信息
 		orderD.addOrder_commDao(list);
+		//修改商品销量信息
 		int a =commD.addCommSales(saleslist);
 		return a;
 	}
