@@ -19,7 +19,7 @@ public class JsonResult implements Serializable{
 	private Object data;
 	/**
 	 * 
-	 * Õý³£·µ»ØÊý¾Ý
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param data
 	 */
 	public JsonResult(Object data){
@@ -32,6 +32,10 @@ public class JsonResult implements Serializable{
 	}
 	public JsonResult(Throwable e){
 		this.message = e.getMessage();
+		this.state = ERROR;
+	}
+	public JsonResult(String message){
+		this.message = message;
 		this.state = ERROR;
 	}
 	

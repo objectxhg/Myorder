@@ -24,13 +24,13 @@ public class regServiceImpl implements regService{
 	public int addUser(String name,String pwd,String phone) {
 		
 		if(name.trim().isEmpty()){
-			System.out.println("name²»ÄÜÎª¿Õ");
+			System.out.println("nameï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½");
 		}
 		if(pwd.trim().isEmpty()){
-			System.out.println("pwd²»ÄÜÎª¿Õ");
+			System.out.println("pwdï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½");
 		}
 		if(phone.trim().isEmpty()){
-			System.out.println("phone²»ÄÜÎª¿Õ");
+			System.out.println("phoneï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½");
 		}
 		
 		//pwd = DigestUtils.md5Hex(str+pwd);
@@ -44,17 +44,17 @@ public class regServiceImpl implements regService{
 	public User loginUser(String name,String pwd) {
 		
 		if(name.trim().isEmpty()){
-			System.out.println("ÕËºÅ²»ÄÜÎª¿Õ");
+			System.out.println("ç”¨æˆ·åä¸èƒ½ä¸ºç©º");
 		}
 		User user = dao.login(name);
 		System.out.println(user);
 		if(user==null){
-			throw new RuntimeException("ÕËºÅ´íÎó");
+			throw new RuntimeException("ç”¨æˆ·åé”™è¯¯");
 		}
 		if(pwd.equals(user.getUser_pwd())){
 			return user;
 		}
-		throw new RuntimeException("ÃÜÂë´íÎó");
+		throw new RuntimeException("å¯†ç é”™è¯¯");
 		
 	}
 

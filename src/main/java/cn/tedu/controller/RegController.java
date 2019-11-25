@@ -9,6 +9,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -23,14 +24,14 @@ public class RegController {
 	@Resource
 	private regService service;
 	
-	//�˳�
+	//�˳�
 	@RequestMapping("/exitUser.do")
 	public String ExitUser(HttpSession session){
 		session.removeAttribute("sessionUser");
 		
 		return "redirect:../user/find.do";
 	}
-	//ע��
+	//ע��
 	@RequestMapping("/reg.do")
 	@ResponseBody
 	public JsonResult Regcontroller(String name,String pwd,String phone){
@@ -38,10 +39,17 @@ public class RegController {
 		System.out.println(a);
 		return new JsonResult(a);
 	}
-	//��½
+	//��½
 	@RequestMapping("/login.do")
 	@ResponseBody
 	public JsonResult Logincontroller(String name,String pwd,HttpServletRequest req){
+		
+		if(StringUtils.isEmpty(name)){
+			return new JsonResult(name+"-账号错误");
+		}
+		if(StringUtils.isEmpty(name)){
+			return new JsonResult("密码错误");
+		}
 		User user = service.loginUser(name, pwd);
 		
 		HttpSession session = req.getSession();
@@ -49,7 +57,7 @@ public class RegController {
 		
 		return new JsonResult(user);
 	}
-	//��ҳ
+	//��ҳ
 	@RequestMapping("/find.do")
 	public String listStoreController(ModelMap map){
 		List<Map<String, Object>> list = service.listStore();
