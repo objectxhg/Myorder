@@ -31,6 +31,7 @@ public class orderController {
 		List<Map<String, String>> orderlist = service.selectOrderByUserIdService(userId);
 		map.addAttribute("orderlist", orderlist);
 		
+		
 		return "myOrder";
 	}
 	
