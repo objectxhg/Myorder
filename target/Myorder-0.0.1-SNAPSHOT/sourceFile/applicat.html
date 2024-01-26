@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/applicat.css" />
+<script type="text/javascript">
+var cities;
+window.onload=function (){
+	cities=[
+			["朝阳区","东城区","西城区","海淀区","丰台区"],
+			["长沙","常德","岳阳","益阳","娄底"],
+			["黄浦区","静安区","长宁区","虹口区","浦东新区"],
+			["广州","河源","韶关","东皖","惠州"], 
+			["昆明","临沧","保山","普洱","大理"]
+			];
+}
+function chg() {
+	var p = 
+	document.getElementById("max_6_1").value;
+	var pcities = cities[p];
+	var select = 
+		document.getElementById("max_6_2");
+	select.innerHTML = "<option>请选择</option>";
+	if(pcities) {
+		for(var i=0;i<pcities.length;i++) {
+			var option = 
+				document.createElement("option");
+			option.innerHTML = pcities[i];
+			select.appendChild(option);
+		}
+	}
+}
+</script>
+<title>店铺申请</title>
+</head>
+<body>
+	<header>
+		<div class="head">
+			<div class="head_1">
+				<span><a class="head_1_1" href="#">饭团网商户中心</a></span> <span><a
+					class="head_1_2" href="#">点击查看《廉正告知书》</a></span>
+			</div>
+		</div>
+	</header>
+	<div class="theme">
+		<p>申请资料</p>
+	</div>
+	<div class="max">
+		<div class="max_1 mesg">
+			<span>门店名称:</span> <input class="max_1_1"
+				placeholder="请与门店照片上的名称保持一致" maxlength="30" type="text">
+		</div>
+		<div class="max_2 mesg">
+			<span>外卖电话:</span> <input class="max_1_2" placeholder="请输入外卖电话"
+				maxlength="30" type="text">
+		</div>
+		<div class="max_3 mesg">
+			<span>联系人姓名:</span> <input class="max_1_2" placeholder="请输入联系人姓名"
+				maxlength="30" type="text">
+		</div>
+		<div class="max_4 mesg">
+			<span>联系人电话:</span> <input class="max_1_2" placeholder="请输入联系人电话"
+				maxlength="30" type="text">
+		</div>
+		<div class="max_5 mesg">
+			<span id="max_5_1">营业时间:</span>
+			<input id="max_5_2" type="radio" name="radio1"/>
+			<span id="max_5_3">24小时</span>
+			<input id="max_5_4" type="radio" name="radio1"/>
+			<span id="max_5_5">12小时</span>
+		</div>
+		<div class="max_6 mesg">
+			<span>所在城市:</span>
+			<select onchange="chg()" id="max_6_1">
+				<option value="-1">请选择</option>
+					<option value="0">北京</option>
+					<option value="1">湖南</option>
+					<option value="2">上海</option>
+					<option value="3">广东</option>
+					<option value="4">云南</option>
+			</select>
+			<select  id="max_6_2">
+				<option>请选择</option>
+			</select>
+		</div>
+		<div class="max_7 ">
+			<img src="../img/map.png">
+		</div>
+		<div class="max_8 ">
+			<span class="max_8_1">门店照片</span>
+			<div class="max_8_2"><p class="pp">门脸照</p></div>
+			<div class="max_8_3">
+				<input class="max_8_input" type="file" accept=""/>
+				<p class="max_8_p">
+					门脸照需拍出完整门匾，门框，需在餐厅开门营业状态下完成拍摄
+					（建议正对门店2米处拍摄，支持JPG、JPEG、PNG格式，
+					<span>大小不超过5M)</span>
+				</p>
+				<img alt="" src="../img/example1.png">
+			</div>
+			<div class="max_8_4"><p class="pp">店内照片</p></div>
+			<div class="max_8_5">
+				<input class="max_8_input" type="file"/>
+				<p class="max_8_p">
+					店内照需真实反映用餐环境（收银台，用餐桌椅。支持JPG、JPEG、PNG格式，</p>
+					<span>大小不超过5M)</span>
+				</p>
+				<img alt="" src="../img/example2.png">
+			</div>
+		</div>
+		<div class="max_9 "></div>
+		<div class="max_10 "></div>
+		<div class="max_11 "></div>
+	</div>
+</body>
+</html>

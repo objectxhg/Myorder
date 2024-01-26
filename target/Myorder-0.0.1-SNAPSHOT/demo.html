@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>layui前端模块框架</title>
+<link  type="text/css" rel="stylesheet" href="../css/my.css"/>
+<link  type="text/css" rel="stylesheet" href="../css/page.css"/>
+<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="../js/page_myOrder_Part.js"></script>
+<script src="../layui/layui.js"></script>
+</head>
+<body>
+
+	<table id="demo" lay-filter="test"></table>
+
+
+<script>
+//一般直接写在一个js文件中
+layui.use(['layer', 'form','table'], function(){
+  var layer = layui.layer;
+  var form  = layui.form;
+  var table = layui.table;
+  layer.msg('Hello World');
+  
+  
+});
+</script>
+</body>
+</html>

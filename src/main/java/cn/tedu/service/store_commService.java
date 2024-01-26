@@ -5,7 +5,7 @@ import java.util.Map;
 
 import cn.tedu.entity.store;
 
-//店铺商品接口
+
 public interface store_commService {
 		
 		public List<Map<String, Object>> listStore_commService(int store_id);

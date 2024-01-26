@@ -43,7 +43,7 @@ public class RegController {
 	@RequestMapping("/login.do")
 	@ResponseBody
 	public JsonResult Logincontroller(String name,String pwd,HttpServletRequest req){
-		
+		System.out.println("hello");
 		if(StringUtils.isEmpty(name)){
 			return new JsonResult(name+"-账号错误");
 		}

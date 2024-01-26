@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Myorder:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02aa5eb8-d9f1-47c7-90a3-1ea2564518eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/controller/RegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/controller/RegController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/controller/store_commController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/controller/store_commController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/service/regService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/service/regService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tedu/service/store_commService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/service/store_commService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/HandleInterceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/HandleInterceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/controller/RegController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/controller/RegController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/controller/orderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/controller/orderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/controller/store_commController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/controller/store_commController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/dao/loginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/dao/loginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/dao/order_FTDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/dao/order_FTDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/dao/store_commDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/dao/store_commDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/JsonResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/JsonResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/order_FT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/order_FT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/order_comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/order_comm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/entity/store_comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/entity/store_comm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/addOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/addOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/regServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/regServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/store_commServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/impl/store_commServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/orderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/orderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/regService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/regService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/tedu/service/store_commService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/service/store_commService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/cn.tedu/Myorder/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/cn.tedu/Myorder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/store_commDao/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/store_commDao/test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="22te5VncMd2HtuPJPjuJNSPNaDj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Myblog" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_231\jre">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Myorder:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Myorder" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="83e8db0c-2042-462a-9e7c-be17fe024d95" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54864" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Myorder:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02aa5eb8-d9f1-47c7-90a3-1ea2564518eb" name="Default Changelist" comment="" />
+      <created>1640661127979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640661127979</updated>
+      <workItem from="1640661129141" duration="66000" />
+      <workItem from="1640661216034" duration="669000" />
+      <workItem from="1640662492615" duration="1230000" />
+      <workItem from="1640665481987" duration="1228000" />
+      <workItem from="1640666747122" duration="4155000" />
+      <workItem from="1640749258537" duration="13000" />
+      <workItem from="1640830087361" duration="1222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

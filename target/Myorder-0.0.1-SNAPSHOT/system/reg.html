@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+<title>饭团网</title>
+<link rel="stylesheet" type="text/css" href="../css/reg.css"/>
+<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+
+<script type="text/javascript">
+	
+	//span的点击事件 登陆和注册模块的跳转
+	function tospan_reg(){
+		$(".part").remove();
+		$(".reg_login").load("../common_reg/reg_part.html");
+	}
+	function tospan_log(){
+		$(".part").remove();
+		$(".reg_login").load("../common_reg/login_part.html");
+	}
+</script>
+</head>
+<body>
+	<div class="img_reg">
+		<nav class="container">
+			<div class="img">
+				<img src="../img/log.png">
+			</div>
+			
+			<!-- 注册模块 -->
+			<div class="reg_login">
+				
+			</div>
+			
+				<script>
+					$(".reg_login").load("../common_reg/login_part.html");
+			 	</script>
+								
+			
+			<!-- 默认隐藏的登陆模块 -->			
+			
+		</nav>
+	</div>
+	<footer class="footer">
+		
+	</footer>
+</body>
+<script type="text/javascript" src="../js/reg.js"></script>
+</html>

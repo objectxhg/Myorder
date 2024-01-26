@@ -1,0 +1,111 @@
+body{
+	background-color: #5383bb; 
+}
+.img_reg{
+	
+	background-image: url(../);
+}
+div{
+	/* border:1px solid red; */
+	margin:1px auto; 
+	
+}
+.container{
+	/* border:1px solid red; */
+	margin:1px auto;  
+	/*閫忔槑*/
+	/* background-color: rgba(0,0,0,0.2); */
+}
+.container{
+	font-size:14px;
+	/*锟斤拷锟斤拷应锟斤拷锟斤拷锟斤拷锟侥匡拷*/
+    width: 320px;
+	height: 528px;
+    margin: 0 auto;
+
+}
+
+footer{
+	width: 1050px;
+	height: 70px;
+    margin: 0 auto;
+}
+input{
+	position: relative;
+	width: 300px;
+	height: 48px;
+	/*杈规鍦嗚*/
+	border-radius: 4px;
+	/* color:#fff; */
+	display: inline-block;
+	/*鏂囨湰妗嗛噷鐨勫瓧浣撳ぇ灏�*/
+	font: 15.3333px Arial;
+	/*鍘婚櫎杈规闃村奖*/
+	border-radius: 4px;
+	border: 1px;
+	solid: 	#DBDBDB;
+	padding-left: 20px;
+}
+.img_log{
+	margin-top: 0px;
+}
+#user{
+	/*170*/
+	margin-top: 40%;
+}
+#pwd{
+	margin-top: 30px;
+}
+#phone{
+	margin-top: 30px;
+}
+#reg{
+	width:320px;
+	margin-top: 50px;
+	cursor:pointer;
+	font-size: 20px;
+	color:#fff;
+	/*棰滆壊浠庝笂鍒颁笅 閫愭笎鍔犳繁*/
+	background: -webkit-linear-gradient(top, #0ebade 0%, #0aa1ed 100%);
+	
+}
+#login{
+	dispaly:none;
+	width:320px;
+	margin-top: 50px;
+	cursor:pointer;
+	font-size: 20px;
+	color:#fff;
+	/*棰滆壊浠庝笂鍒颁笅 閫愭笎鍔犳繁*/
+	background: -webkit-linear-gradient(top, #0ebade 0%, #0aa1ed 100%);
+	
+}
+.reg_log{
+	margin-top: 0px;
+}
+.show_login{
+	margin-top: 0px;
+}
+
+#black{
+	position: relative;
+	top:80px;
+	right: 30px;
+}
+a{
+	text-decoration: none;
+}
+.img{
+	position: relative;
+	top: 80px;
+	left: -15px;
+}
+#span_log{
+	position: relative;
+	top: 118px;
+}
+#span_reg{
+	position: relative;
+	top: 118px;
+}
+

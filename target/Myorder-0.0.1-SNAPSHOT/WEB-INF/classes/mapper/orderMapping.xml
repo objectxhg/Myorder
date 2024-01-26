@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+	
+	<!-- 命名空间 -->
+<mapper namespace="cn.tedu.dao.order_FTDao" > 
+		  <!-- 
+		   (Mybatis sqlServer)支持    Oralce不支持
+			 useGeneratedKeys=true  属性
+			  设置是否使用JDBC的getGenereatedKeys方法获取主键并赋值到
+			 keyProperty 表示将自增长后的Id赋值给实体类中的userId字段。
+			 
+			 keyProperty
+			 (仅对 insert 有用) 标记一个属性, MyBatis 会通过 getGeneratedKeys
+			  或者通过 insert 语句的 selectKey 子元素设置它的值。默认: 不设置。
+			  
+			 在insert中指定了keyProperty="userId"，其中userId代表插入的User对象的主键属性。
+			 https://www.cnblogs.com/gengaixue/p/5276596.html
+		    -->
+		    
+		<insert id="addOrder_FTDao" useGeneratedKeys="true" keyProperty="order_id" 
+		  parameterType="cn.tedu.entity.order_FT" >
+			insert into 
+			order_FT values(
+				null,
+				#{store_id},
+				#{user_id},
+				#{order_time},
+				#{order_state},
+				#{order_total}
+			)
+		</insert>
+		<!-- 
+			foreach元素的属性主要有 item，index，collection，open，separator，close。
+	
+			item表示集合中每一个元素进行迭代时的别名.
+			
+			index指 定一个名字，用于表示在迭代过程中，每次迭代到的位置.
+			
+			open表示该语句以什么开始，separator表示在每次进行迭代之间以什么符号作为分隔 符.
+			
+			close表示以什么结束.
+		 -->
+		<insert id="addOrder_commDao" parameterType="java.util.List">
+			insert into order_comm (
+				order_id,
+				comm_id,
+				comm_number,
+				comm_price
+			) values
+			<foreach collection="list" item="order_comm" index="index"
+			separator=",">
+				(
+					#{order_comm.order_id},
+					#{order_comm.comm_id},
+					#{order_comm.comm_number},
+					#{order_comm.comm_price}
+				)
+			</foreach>
+		</insert>
+		
+		<select id="selectOrderByUserId" resultType="map">
+			
+			select S.store_name,
+				   s.store_url,
+			 	   o.order_id,
+				   o.order_time,
+				   o.order_total,
+				   o.order_state 
+			from order_ft o 
+				 join 
+				 store  s 
+			on o.store_id=s.store_id 
+				where o.user_id=#{userId}
+			order by o.order_time desc
+				limit 0,5
+			
+		</select>
+		
+		
+</mapper>
+

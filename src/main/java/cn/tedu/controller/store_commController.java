@@ -26,13 +26,14 @@ public class store_commController {
 	public String ListStore_commController(HttpServletRequest req){
 		
 		int store_id = Integer.parseInt(req.getParameter("store_id"));
-		List<Map<String, Object>> list = service.listStore_commService(store_id);
+//		List<Map<String, Object>> list = service.listStore_commService(store_id);
 		
 		store s = service.findStoreServic(store_id);
 		System.out.println(s);
 		
 		req.setAttribute("s", s);
-		req.setAttribute("listStore_comm", list);
+
+		req.setAttribute("listStore_comm", null);
 		
 		return "store";
 	}
